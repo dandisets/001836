@@ -10,6 +10,8 @@ assetsSummary:
   approach:
   - name: behavioral approach
     schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -17,8 +19,10 @@ assetsSummary:
   measurementTechnique:
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 12564990486
-  numberOfFiles: 2023
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 117919552638
+  numberOfFiles: 2440
   numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
@@ -30,6 +34,7 @@ assetsSummary:
   - CompassDirection
   - Position
   - BehavioralTimeSeries
+  - ElectricalSeries
 citation: Gu, Shijie (2026) Naturalistic behavior and self-generated neural activity
   predictive of self-correction (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001836/draft
 contributor:
