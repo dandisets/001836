@@ -7,9 +7,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 578242020
+  numberOfFiles: 791
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - SpatialSeries
+  - CompassDirection
+  - Position
+  - BehavioralTimeSeries
 citation: Gu, Shijie (2026) Naturalistic behavior and self-generated neural activity
   predictive of self-correction (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001836/draft
 contributor:
