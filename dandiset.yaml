@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -23,8 +24,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4829704438404
-  numberOfFiles: 2473
+  numberOfBytes: 12728989128944
+  numberOfFiles: 2494
   numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
@@ -44,27 +45,35 @@ citation: Gu, Shijie (2026) Naturalistic behavior and self-generated neural acti
 contributor:
 - affiliation: []
   email: techel@live.cn
+  identifier: 0000-0001-6257-5756
   includeInCitation: true
   name: Gu, Shijie
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- identifier: 0009-0001-5065-6396
+  name: Liu, Cheng
+  schemaKey: Person
+- identifier: 0000-0002-1752-5677
+  name: Frank, Loren
+  schemaKey: Person
 dateCreated: '2026-05-09T17:43:37.666699+00:00'
-description: "Data for the paper \"Naturalistic behavior and self-generated neural
-  activity predictive of self-correction\" by \nShijie Gu, Chenyan Liu, Anna K. Gillespie,
-  Rhino Nevers, Eric L. Denovellis, Michael E. Coulter, Kenny Kay, and Loren M. Frank\n
-  \nHippocampus recording during rats changing their minds.\n\nPaper abstract:\nRevising
-  a past decision is observed to be beneficial. It remains unclear what neural substrates
-  constitute a “change-of-mind” in a context of more than one alternative. Here we
-  report a prevalent change-of-mind behavior in freely behaving rats performing a
-  challenging multi-alternative maze task: rats initially chose a maze arm before
-  spontaneously leaving the arm and going to another arm. Critically, this behavior
-  was predominantly corrective, and reflected rats overcoming their innate exploration
-  bias. Using high-density neural recordings, we found that the hippocampus can represent
-  an animal’s subsequent choice as they retreat from their initial choice. Intriguingly,
-  the existence of neural activity led to better outcomes. Taken together, these findings
-  delineate candidate neural activity patterns inducing and guiding self-correction
-  behavior in a novel behavior paradigm. \n"
+description: 'Data for the paper "Naturalistic behavior and self-generated neural
+  activity predictive of self-correction" by Shijie Gu, Chenyan Liu, Anna K. Gillespie,
+  Rhino Nevers, Eric L. Denovellis, Michael E. Coulter, Kenny Kay, and Loren M. Frank
+  Hippocampus recording during rats changing their minds. Paper abstract: Changing
+  one’s mind –– revising a past decision and independently of external cues –– can
+  lead to better outcomes, but its neural basis remains poorly understood. We developed
+  a challenging spatial task for rats where the conflict between task rules and innate
+  biases leads to abundant, spontaneous, and characteristically corrective changes-of-mind
+  (COMs). Neural recordings reveal a striking two-stage organization underlying COMs.
+  In hippocampus, a brain region implicated in counterfactual thinking, spatial representations
+  bifurcated around COM onset: representations of distant alternatives emerged only
+  after animals began to change course. These representations predicted their eventual
+  choice, and often serially encoded trial start and end locations. Our task paradigm
+  reveals that the brain processes underlying self-correction are dissociable and
+  uncovers a rich repertoire of hippocampal spatial representations tied to behavior.'
+ethicsApproval: []
 id: DANDI:001836/draft
 identifier: DANDI:001836
 license:
@@ -72,8 +81,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001836/versions/draft/assets/
 name: Naturalistic behavior and self-generated neural activity predictive of self-correction
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001836/draft
 version: draft
+wasGeneratedBy: []
