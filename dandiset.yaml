@@ -41,7 +41,8 @@ assetsSummary:
   - ProcessingModule
   - BehavioralEvents
 citation: Gu, Shijie (2026) Naturalistic behavior and self-generated neural activity
-  predictive of self-correction (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001836/draft
+  predictive of self-correction (Version 0.260526.1804) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001836/0.260526.1804
 contributor:
 - affiliation: []
   email: techel@live.cn
@@ -58,6 +59,7 @@ contributor:
   name: Frank, Loren
   schemaKey: Person
 dateCreated: '2026-05-09T17:43:37.666699+00:00'
+datePublished: '2026-05-26T18:04:55.833779+00:00'
 description: 'Data for the paper "Naturalistic behavior and self-generated neural
   activity predictive of self-correction" by Shijie Gu, Chenyan Liu, Anna K. Gillespie,
   Rhino Nevers, Eric L. Denovellis, Michael E. Coulter, Kenny Kay, and Loren M. Frank
@@ -73,18 +75,31 @@ description: 'Data for the paper "Naturalistic behavior and self-generated neura
   choice, and often serially encoded trial start and end locations. Our task paradigm
   reveals that the brain processes underlying self-correction are dissociable and
   uncovers a rich repertoire of hippocampal spatial representations tied to behavior.'
+doi: 10.48324/dandi.001836/0.260526.1804
 ethicsApproval: []
-id: DANDI:001836/draft
+id: DANDI:001836/0.260526.1804
 identifier: DANDI:001836
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001836/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001836/0.260526.1804/assets.yaml
 name: Naturalistic behavior and self-generated neural activity predictive of self-correction
+publishedBy:
+  endDate: '2026-05-26T18:04:55.833779+00:00'
+  id: urn:uuid:a073a55b-fcd3-4a62-b19a-c2b957a2c579
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-26T18:04:55.833779+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:84d328ae-b5be-4928-b036-4f734894c2c8
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001836/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001836/0.260526.1804
+version: 0.260526.1804
 wasGeneratedBy: []
