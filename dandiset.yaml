@@ -3,7 +3,13 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002421
+  name: hippocampal formation
+  schemaKey: Anatomy
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0a038
+  name: decision making
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -41,25 +47,53 @@ assetsSummary:
   - ProcessingModule
   - BehavioralEvents
 citation: Gu, Shijie (2026) Naturalistic behavior and self-generated neural activity
-  predictive of self-correction (Version 0.260526.1804) [Data set]. DANDI Archive.
-  https://doi.org/10.48324/dandi.001836/0.260526.1804
+  predictive of self-correction (Version 0.261030.0428) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001836/0.261030.0428
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/043mz5j54
+    name: University of California, San Francisco
+    schemaKey: Affiliation
   email: techel@live.cn
   identifier: 0000-0001-6257-5756
   includeInCitation: true
   name: Gu, Shijie
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
-- identifier: 0009-0001-5065-6396
+- affiliation:
+  - identifier: https://ror.org/043mz5j54
+    name: University of California, San Francisco
+    schemaKey: Affiliation
+  identifier: 0009-0001-5065-6396
   name: Liu, Cheng
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-1752-5677
+- affiliation:
+  - identifier: https://ror.org/043mz5j54
+    name: University of California, San Francisco
+    schemaKey: Affiliation
+  identifier: 0000-0002-1752-5677
   name: Frank, Loren
+  roleName:
+  - dcite:Author
   schemaKey: Person
+- awardNumber: '542981'
+  identifier: https://ror.org/01cmst727
+  name: Simons Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: K99 AG068425
+  identifier: https://ror.org/049v75w11
+  name: National Institute on Aging
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-05-09T17:43:37.666699+00:00'
-datePublished: '2026-05-26T18:04:55.833779+00:00'
+datePublished: '2026-10-30T04:28:32.218443+00:00'
 description: 'Data for the paper "Naturalistic behavior and self-generated neural
   activity predictive of self-correction" by Shijie Gu, Chenyan Liu, Anna K. Gillespie,
   Rhino Nevers, Eric L. Denovellis, Michael E. Coulter, Kenny Kay, and Loren M. Frank
@@ -75,31 +109,44 @@ description: 'Data for the paper "Naturalistic behavior and self-generated neura
   choice, and often serially encoded trial start and end locations. Our task paradigm
   reveals that the brain processes underlying self-correction are dissociable and
   uncovers a rich repertoire of hippocampal spatial representations tied to behavior.'
-doi: 10.48324/dandi.001836/0.260526.1804
+doi: 10.48324/dandi.001836/0.261030.0428
 ethicsApproval: []
-id: DANDI:001836/0.260526.1804
+id: DANDI:001836/0.261030.0428
 identifier: DANDI:001836
+keywords:
+- change of mind
+- self-correction
+- counterfactual thinking
+- hippocampal spatial representations
+- spatial choice task
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/001836/0.260526.1804/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/001836/0.261030.0428/assets.yaml
 name: Naturalistic behavior and self-generated neural activity predictive of self-correction
 publishedBy:
-  endDate: '2026-05-26T18:04:55.833779+00:00'
-  id: urn:uuid:a073a55b-fcd3-4a62-b19a-c2b957a2c579
+  endDate: '2026-10-30T04:28:32.218443+00:00'
+  id: urn:uuid:e2df37ee-38fd-4c39-8d7e-ce7136acf324
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2026-05-26T18:04:55.833779+00:00'
+  startDate: '2026-10-30T04:28:32.218443+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:84d328ae-b5be-4928-b036-4f734894c2c8
+  - id: urn:uuid:58682ca6-5cf3-4578-ac7d-e0b6847735d4
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource: []
+relatedResource:
+- identifier: doi:10.64898/2026.05.26.727951
+  name: Naturalistic behavior and self-generated neural activity predictive of self-correction
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://doi.org/10.64898/2026.05.26.727951
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001836/0.260526.1804
-version: 0.260526.1804
+url: https://dandiarchive.org/dandiset/001836/0.261030.0428
+version: 0.261030.0428
 wasGeneratedBy: []
